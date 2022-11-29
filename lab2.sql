@@ -9,7 +9,7 @@ ORDER BY type;
 -- Task 2
 SELECT name
 FROM battles
-WHERE name NOT LIKE '%c';
+WHERE name NOT LIKE '%c'; 
 
 -- Task 3
 SELECT name, ships.class, country, launched

@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS mosorin_zakhar_lab1;
-USE mosorin_zakhar_lab1;
+CREATE DATABASE IF NOT EXISTS mosorinzakharlab4;
+USE mosorinzakharlab4;
 
 DROP TABLE IF EXISTS message;
 DROP TABLE IF EXISTS chat_has_user; 
