@@ -1,0 +1,12 @@
+package com.mosorin.lab5.repository;
+
+import com.mosorin.lab5.domain.ChatEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface ChatRepository extends JpaRepository<ChatEntity, Integer> {
+    List<ChatEntity> findAllByName(String name);
+}
